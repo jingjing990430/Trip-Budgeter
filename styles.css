@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+input {
+  background-color: #0e1116;
+  color: white;
+}
+
+select {
+  background-color: #0e1116;
+  color: white;
+}
+
 body {
   color: #e6edf3;
   background-color: #0e1116;

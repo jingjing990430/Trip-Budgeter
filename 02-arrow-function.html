@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 箭头函数
+        const fn=() => {
+            console.log(this);
+        };
+        // 只有一个形式参数时，可以省略括号
+        const fn2= x => {
+            console.log(x);
+        };
+        // 只有一条语句时，可以省略大括号和return
+        const fn3= x => x * 2;
+        // 箭头函数可以直接返回一个对象
+        const fn4= () => ({name: 'zhangsan'});
+    </script>
+</body>
+</html>

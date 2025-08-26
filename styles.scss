@@ -13,6 +13,14 @@ $brand:#2ea043;
 *{
     box-sizing: border-box;
 }
+input{
+    background-color: $bg;
+    color:white;
+}
+select{
+    background-color: $bg;
+    color:white;
+}
 body{
     color: $fg;
     background-color: $bg;
